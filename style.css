@@ -1,0 +1,53 @@
+.heading{
+    width: fit-content;
+    margin: auto;
+}
+.reset{
+    width: fit-content;
+    margin: auto;
+    color: lightblue;
+    margin-top: 5vh;
+}
+#full{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+    margin-top: 15vh;
+    position: relative;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+}
+.col{
+    width: 90px;
+    font-size: 2rem;
+    padding-top: 40px;
+    padding-left: 60px;
+    cursor: pointer;
+}
+.col:hover{
+    background-color: antiquewhite;
+}
+.btop{
+    border-top: 2px solid black;
+
+}
+.bleft{
+    border-left: 2px solid black;
+}
+.bbottom{
+    border-bottom: 2px solid black;
+}
+.bright{
+    border-right: 2px solid black;
+}
+.win{
+    padding-top: 8vh;
+    width: fit-content;
+    margin: auto;
+    font-size: 2rem;
+    color: rgb(41, 153, 41);
+}
