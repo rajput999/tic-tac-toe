@@ -32,6 +32,7 @@ const reset = () =>{
         col[i].innerText="";
     }
     arr = [true,true,true,true,true,true,true,true,true,];
+    document.querySelector(".win").innerText="";
 }
 
 const clicked = (no) =>{
